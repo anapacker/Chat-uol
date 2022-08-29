@@ -1,15 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chat UOL</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+
+
 </head>
 
 <body>
+    <header class="cabecalho">
+        <div class="icones">
+            <img src="logo.png" alt="">
+            <ion-icon name="people-sharp"></ion-icon>
+        </div>
+    </header>
 
+    <main>
+        <ul class="box-mensagens">
+
+        </ul>
+    </main>
+
+    <footer>
+        <textarea class="caixa-texto" placeholder="Escreva aqui..." rows="4" cols="50"></textarea>
+        <ion-icon name="paper-plane-outline"></ion-icon>
+    </footer>
 </body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
 
 </html>
